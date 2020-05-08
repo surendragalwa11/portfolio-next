@@ -1,4 +1,5 @@
 import '../styles/global.css';
+import '../styles/work.module.css';
 import NavBar from '../components/NavBar';
 import routes from '../config/routes';
 

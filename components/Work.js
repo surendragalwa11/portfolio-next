@@ -328,14 +328,17 @@ const WorkComponent = (props) => {
 
             .nymo .card {
                 height: 650px;
+                overflow: auto;
             }
 
             .sigma .card {
                 height: 600px;
+                overflow: auto;
             }
 
             .sigma .card-sm {
                 height: 500px;
+                overflow: auto;
             }
               
             .card:hover,

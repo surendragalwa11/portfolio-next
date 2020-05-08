@@ -3,7 +3,6 @@
     padding: 0 0.5rem;
     height: 45px;
     font-size: 1.2rem;
-    position: fixed;
     display: flex;
     justify-content: flex-end;
 }

@@ -11,9 +11,8 @@ body {
   font-family: cursive;
   line-height: 1.6;
   font-size: 18px;
-  /* background-image: url('/next-portfolio-bg.jpg'); */
-  background-image: url('/bg-about.jpg');
-  background-size:  100vw 150vh;
+  background-image: url('/portfolio-bg.jpg');
+  background-size:  100vw 110vh;
   background-color: var(--primary-color);
   height: 100vh;
   width: 100vw;
@@ -40,71 +39,85 @@ img {
     }
 }
 
+@keyframes slideLeft{
+  from {
+    margin-top: 80vh;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+
 
 
 .page-container {
-    min-height: 100vh;
-    padding: 0 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  min-height: calc(100vh - 45px);
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  main {
-    padding: 5rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    animation: zoomIn 1.5s ease-in;
-  }
+main {
+  padding: 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  a {
-    color: var(--ternary-color);
-    padding: 0.3rem 0.5rem;
-    text-decoration: none;
-  }
+a {
+  color: var(--ternary-color);
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+}
 
-  a:hover,
-  a:focus,
-  a:active {
-    /* color: aliceblue; */
-    text-decoration: underline;
-  }
+a:hover,
+a:focus,
+a:active {
+  /* color: aliceblue; */
+  text-decoration: underline;
+}
 
-  .title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 4rem;
-    /* color: aliceblue; */
-  }
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  /* color: aliceblue; */
+}
 
-  .title span {
-    color: var(--ternary-color);
-  }
+.title span,
+.primary-color {
+  color: var(--ternary-color);
+}
 
-  .title,
-  .description {
-    text-align: center;
-  }
+.title,
+.description,
+.content {
+  text-align: center;
+}
 
-  .description {
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.content {
+  font-size: 1.2rem;
+}
 
 
-  .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
-    max-width: 800px;
-    margin-top: 3rem;
-  }
+  max-width: 800px;
+  margin-top: 3rem;
+}
 
   .card {
     margin: 1rem;
@@ -145,4 +158,15 @@ img {
       width: 100%;
       flex-direction: column;
     }
+    main {
+      padding: 1rem 0.5rem 3rem;
+    }
   }
+
+.home-page {
+  animation: zoomIn 1s ease-in;
+}
+
+.about-page {
+  animation: slideLeft 1s ease-in;
+}

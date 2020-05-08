@@ -7,9 +7,9 @@ export default function Home() {
     <>
       <Head>
         <title>Surendra Galwa</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='page-container'>
+      <div className='page-container home-page'>
         <main>
           <HomeComponent />
         </main>

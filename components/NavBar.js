@@ -1,19 +1,17 @@
 import Link from 'next/link';
-import {useState} from 'react';
+import { useRouter } from 'next/router';
 
 import styles from '../styles/navbar.module.css';
 
 const NavBar = (props) => {
-    const [activeLink, setActiveLink] = useState('/')
+    const router = useRouter();
+    const path = router.pathname;
     return(
         <nav className={styles.navbar}>
             {
                 props.routes.map((route, i) => (
                     <Link href={route.url} key={i}> 
-                        <a
-                            className={`${activeLink === route.url ? styles.activeLink : ''}`}
-                            onClick={() => setActiveLink(route.url)}
-                        >
+                        <a className={`${path === route.url ? styles.activeLink : ''}`}>
                         {route.label}
                     </a>
                     </Link>

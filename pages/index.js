@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Surendra Galwa</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favs.ico' />
       </Head>
       <div className='page-container home-page'>
         <main>

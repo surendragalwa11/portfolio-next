@@ -115,7 +115,8 @@ a:active {
     animation: zoomIn 1s ease-in;
 }
 
-.about-page {
+.about-page,
+.contact-page {
     animation: slideLeft 1s ease-in;
 }
 

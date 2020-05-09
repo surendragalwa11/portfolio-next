@@ -7,6 +7,7 @@ export default function Contact(){
         <div className='page-container'>
             <Head>
                 <title>Surendra's Work</title>
+                <link rel='icon' href='/favs.ico' />
             </Head>
             <main>
                 <WorkComponent />

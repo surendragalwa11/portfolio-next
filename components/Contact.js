@@ -19,8 +19,8 @@ const ContactComponent = (props) => {
                         <a href='https://github.com/surendragalwa11' target='_blank' title='GitHub'>
                             <img className='ghub-logo' src='/github-logoo.png' />
                         </a>
-                        <a href='https://twitter.com/surendragalwa11' target='_blank' title='Twitter'>
-                            <img src='/twitter-logo.png' />
+                        <a href='https://twitter.com/surendragalwa11' target='_blank'>
+                            <img className='tw-logo' src='/tw-logo.png' />
                         </a>
                         <a href='https://www.hackerrank.com/surendragalwa11' target='_blank' title='HackerRank'>
                             <img className='hrank-logo' src='/hackerrank-logo.png' />
@@ -71,8 +71,13 @@ const ContactComponent = (props) => {
                 display: flex;
             }
 
-            .ghub-logo {
+            .ghub-logo,
+            .tw-logo {
                 border-radius: 50%;
+            }
+
+            .tw-logo img {
+                display: block !important;
             }
 
             .lin-logo {
@@ -85,6 +90,7 @@ const ContactComponent = (props) => {
 
             .resume {
                 text-decoration: underline;
+                color: var(--ternary-color);
             }
             @media(max-width: 600px) {
                 .contact-info {

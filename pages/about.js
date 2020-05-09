@@ -7,6 +7,7 @@ export default function About(){
         <div className='page-container'>
             <Head>
                 <title>About Surendra</title>
+                <link rel='icon' href='/favs.ico' />
             </Head>
             <main>
                 <AboutComponent />

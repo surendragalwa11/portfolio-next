@@ -8,7 +8,7 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: cursive;
+    font-family: auto;
     line-height: 1.6;
     font-size: 18px;
     background-image: url('/portfolio-bg.jpg');
@@ -45,6 +45,15 @@ img {
     }
     to {
         margin-top: 0;
+    }
+}
+
+@keyframes lightIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 
@@ -110,9 +119,12 @@ a:active {
     height: 100%;
 }
 
-.home-page,
-.work-page {
+.home-page {
     animation: zoomIn 1s ease-in;
+}
+
+.work-page {
+    animation: lightIn 0.8s ease-in;
 }
 
 .about-page,

@@ -20,9 +20,11 @@ Thanks [Netflify](https://www.netlify.com/) for hosting.
 Please follow below steps to run the application in docker mode:
 
 Step-1 Build the docker image
+
 `docker build . -t portfolio`
 
 Step-2 Run the docker container
+
 `docker -p 3000:3000 run portfolio:latest`
 
   

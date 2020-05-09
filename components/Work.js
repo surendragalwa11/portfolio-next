@@ -29,7 +29,7 @@ const WorkComponent = (props) => {
                         <p className='project-stack'>
                             <span>Technologies:</span><br />
                             React JS, Redux, Redux Saga, Webpack, Babel, Bootstrap, Node JS, Micro Services,
-                            MongoDB, Shell Scripts, Crons, FFMPEG, RTSP, ONVIF, RPC.
+                            MongoDB, Shell Scripts, Crons, Docker, Docker Compose, FFMPEG, RTSP, ONVIF, RPC.
                         </p>
                         <p className='project-role'>
                             <span>Role:</span><br />

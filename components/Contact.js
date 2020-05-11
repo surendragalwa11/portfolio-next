@@ -6,31 +6,68 @@ const ContactComponent = (props) => {
             </h1>
             <div className='contact-info'>
                 <div className='user-image'>
-                    <img src='/surendra.jpeg' />
+                    <img alt='surendra' src='/surendra.jpeg' />
                 </div>
                 <div className='user-details'>
                     <p>Surendra Galwa</p>
                     <p>Contact: +91-6363175297</p>
                     <p>Email: surendragalwa111@gmail.com</p>
                     <p className='profiles'>
-                        <a href='https://www.linkedin.com/in/surendragalwa11/' target='_blank'>
-                            <img className='lin-logo' src='/lin-logo.png' />
+                        <a
+                            href='https://www.linkedin.com/in/surendragalwa11/'
+                            target='_blank'
+                            title='LinkedIn'
+                            aria-label='linkedin'
+                            rel='noopener noreferrer'
+                        >
+                            <img alt='linkedin' className='lin-logo' src='/lin-logo.png' />
                         </a>
-                        <a href='https://github.com/surendragalwa11' target='_blank' title='GitHub'>
-                            <img className='ghub-logo' src='/github-logoo.png' />
+                        <a
+                            href='https://github.com/surendragalwa11'
+                            target='_blank'
+                            title='GitHub'
+                            aria-label='github'
+                            rel='noopener noreferrer'
+                        >
+                            <img alt='github' className='ghub-logo' src='/github-logoo.png' />
                         </a>
-                        <a href='https://twitter.com/surendragalwa11' target='_blank'>
-                            <img className='tw-logo' src='/tw-logo.png' />
+                        <a 
+                            href='https://twitter.com/surendragalwa11'
+                            target='_blank'
+                            title='Twitter'
+                            aria-label='twitter'
+                            rel='noopener noreferrer'
+                        >
+                            <img alt='twitter' className='tw-logo' src='/tw-logo.png' />
                         </a>
-                        <a href='https://www.hackerrank.com/surendragalwa11' target='_blank' title='HackerRank'>
-                            <img className='hrank-logo' src='/hackerrank-logo.png' />
+                        <a
+                            href='https://www.hackerrank.com/surendragalwa11'
+                            target='_blank'
+                            title='HackerRank'
+                            aria-label='hackerrank'
+                            rel='noopener noreferrer'
+                        >
+                            <img alt='hackerrank' className='hrank-logo' src='/hackerrank-logo.png' />
                         </a>
-                        <a href='https://leetcode.com/surendragalwa11/' target='_blank' title='Leetcode'>
-                            <img src='/leetcode-logo.png' />
+                        <a
+                            href='https://leetcode.com/surendragalwa11/'
+                            target='_blank'
+                            title='Leetcode'
+                            aria-label='leetcode'
+                            rel='noopener noreferrer'
+                        >
+                            <img alt='leetcode' src='/leetcode-logo.png' />
                         </a>
                     </p>
                     <p>
-                        <a className='resume' href='/resume.pdf' download>
+                        <a
+                            className='resume'
+                            href='/resume.pdf'
+                            download
+                            title='Resume'
+                            aria-label='resume'
+                            rel='noopener noreferrer'
+                        >
                             Download Resume
                         </a>
                     </p>

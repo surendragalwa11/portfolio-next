@@ -3,8 +3,15 @@ const WorkComponent = (props) => {
         <div className='work-page'>
             <div className='company-section nymo'>
                 <div className='header'>
-                    <a className='logo' href='https://nymo.ai' target='_blank'>
-                        <img src='/nymo-logo.jpg' />
+                    <a
+                        className='logo'
+                        href='https://nymo.ai'
+                        target='_blank'
+                        title='Nymo'
+                        aria-label='nymo'
+                        rel='noopener noreferrer'
+                    >
+                        <img alt='nymo' src='/nymo-logo.jpg' />
                     </a>
                     <div className='company-info'>
                         <h3>Nymo Technologies, Bengaluru</h3>
@@ -116,8 +123,15 @@ const WorkComponent = (props) => {
             </div>
             <div className='company-section sigma'>
                 <div className='header'>
-                    <a className='logo' href='https://www.sigmainfo.net/' target='_blank'>
-                            <img src='/sigma-logo.jpg' />
+                    <a
+                        className='logo'
+                        href='https://www.sigmainfo.net/'
+                        target='_blank'
+                        title='Sigma'
+                        aria-label='sigma'
+                        rel='noopener noreferrer'
+                    >
+                            <img alt='sigma' src='/sigma-logo.jpg' />
                     </a>
                     <div className='company-info'>
                         <h3>Sigma Infosolutions Pvt. Ltd., Bengaluru</h3>
@@ -251,8 +265,22 @@ const WorkComponent = (props) => {
                             <span>Description:</span><br />
                             I keep implementing my ideas and trying new technologies. I have developed various starter
                             projecs as proof of concepts .<br/>
-                            Please follow this link to visit my <a href='https://github.com/surendragalwa11' target='_blank'>Github</a> profile.<br/>
-                            <a href='https://surendragalwa11.github.io/portfolio' target='_open'>Visit my React Portfolio</a>.
+                            Please follow this link to visit my <a
+                                href='https://github.com/surendragalwa11'
+                                target='_blank'
+                                title='Github'
+                                aria-label='github'
+                                rel='noopener noreferrer'
+                            >Github</a> profile.<br/>
+                            <a
+                                href='https://surendragalwa11.github.io/portfolio'
+                                target='_blank'
+                                rel='noopener'
+                                title='Surendra React Portfolio'
+                                aria-label='portfolio'
+                            >
+                                Visit my React Portfolio
+                            </a>.
                         </p>
                         <p className='project-stack'>
                             <span>Technologies:</span><br />

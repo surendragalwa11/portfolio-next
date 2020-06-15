@@ -1,4 +1,4 @@
-import Head, {Html} from 'next/head'
+import Head from 'next/head'
 
 import HomeComponent from '../components/Home';
 

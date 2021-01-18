@@ -1,5 +1,5 @@
 const ContactComponent = (props) => {
-    return(
+    return (
         <div className='contact-page'>
             <h1 className='title primary-color'>
                 Let's talk?
@@ -31,7 +31,7 @@ const ContactComponent = (props) => {
                         >
                             <img alt='github' className='ghub-logo' src='/github-logoo.png' />
                         </a>
-                        <a 
+                        <a
                             href='https://twitter.com/surendragalwa11'
                             target='_blank'
                             title='Twitter'
@@ -59,10 +59,11 @@ const ContactComponent = (props) => {
                             <img alt='leetcode' src='/leetcode-logo.png' />
                         </a>
                     </p>
-                    <p>
+                    {/* Disable resume download */}
+                    {/* <p>
                         <a
                             className='resume'
-                            href='/resume.pdf'
+                            href='/blank_resume.pdf'
                             download
                             title='Resume'
                             aria-label='resume'
@@ -70,7 +71,7 @@ const ContactComponent = (props) => {
                         >
                             Download Resume
                         </a>
-                    </p>
+                    </p> */}
                 </div>
             </div>
             <style jsx>{`

@@ -17,9 +17,9 @@ const AboutComponent = (props) => {
                 </p>
                 <p>
                     I solve real life problems with the help of science and technology. I have built scalable
-                    applications with the best fit architecture and design patterns. I believe in the qulity of
-                    code rather than number of bits. During development, I use data structures and alogrithms to
-                    reduce the time and space complexity. Writing tests gives me the strength.<br />
+                    applications with the best fit architecture and design patterns. I believe in the quality of
+                    code (number of bits & amount of time) rather than number of lines. I love to utilise my data structures and alogrithms knowledge
+                    reduce the time and space complexity. Writing tests give me strength.<br />
                     Over the years, I have wore many hates from full stack developer to deployment specialist and stepped in multiple
                     shoes from a Software Enginner to a Product Owner.
                 </p>

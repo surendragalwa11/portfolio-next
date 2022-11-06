@@ -20,7 +20,7 @@ const AboutComponent = (props) => {
                     applications with the best fit architecture and design patterns. I believe in the quality of
                     code (number of bits & amount of time) rather than number of lines. I love to utilise my data structures and alogrithms knowledge
                     to reduce the time and space complexity. Writing tests give me strength.<br />
-                    Over the years, I have wore many hates from full stack developer to deployment specialist and stepped in multiple
+                    Over the years, I have wore many hats from full stack developer to deployment specialist and stepped up in multiple
                     shoes from a Software Enginner to a Product Owner.
                 </p>
                 <p>
